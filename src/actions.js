@@ -1,6 +1,6 @@
 export const addData = (data) => {
   return {
-    type: "get_data",
+    type: "add_data",
     payload: data,
   };
 };

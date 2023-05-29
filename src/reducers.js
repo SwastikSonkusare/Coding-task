@@ -1,6 +1,6 @@
 export const reducer = (state = { data: [] }, action) => {
   switch (action.type) {
-    case "get_data":
+    case "add_data":
       return { ...state, data: action.payload };
 
     default:
